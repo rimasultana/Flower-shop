@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .banner-container {
+    width: 90%;
+    flex-direction: column;
+    text-align: left;
+  }
+  .content,
+  .red-img,
+  .offers-content,
+  .offers-img,
+  .Instagram-container img  {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 3rem;
+  }
+  .feature-flowers,
+  .support-section,
+  .Instagram-section,
+  .deals-section {
+    width: 90%;
+  }
+  .flowers-container,
+  .support-container,
+  .offers-container,
+  .Instagram-container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .flower {
+    margin-bottom: 25px;
+  }
+  .pink-img a {
+    text-align: center;
+    bottom: -30px;
+  }
+  input{
+    width: 250px!important;
+
+  }
+}
