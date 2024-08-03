@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.hide {
+  display: none;
+}
+
+/* =-=-=-=banner-section start here=-=-=-=-=- */
+.banner-section {
+  max-width: 100%;
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.content {
+  width: 50%;
+}
+.content h1 {
+  color: rgb(39, 39, 39);
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: left;
+}
+.content p {
+  color: grey;
+  font-size: 1rem;
+}
+.btn {
+  background-color: #f83c3c;
+  padding: 15px 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.red-img {
+  width: 50%;
+}
+/* <!-- =-=-=-==-=-=-=-=feature-flower=-=-=-=-=-=- --> */
+
+.feature-flowers {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.title {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.title h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+.title p {
+  color: grey;
+  font-size: 1rem;
+}
+.flowers-container {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.flower-pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 75px 0px 75px;
+}
+
+.red-tora {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 110px 47px 50px 48px;
+}
+.yellow-img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 67px 75px 0px 70px;
+}
+.flower {
+  position: relative;
+}
+.pink-img a {
+  color: rgb(39, 39, 39);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+  position: absolute;
+  bottom: -70px;
+}
+
+/* <!-- =-=-=-==-=-=-=-=support-section=-=-=-=-=-=- --> */
+.support-section {
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 130px;
+}
+.support-container {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.support-description {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 12px;
+}
+/* <!-- =-=-=-=-=-=-=-offers-section=-=-=-=-=-=- --> */
+.offers-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 130px;
+}
+.offers-container {
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+.offers-content {
+  width: 50%;
+  text-align: center;
+}
+.offers-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.offers-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+}
+/* <!-- =-=-=-=-=-=-=-Instagram-section=-=-=-=-=-=- --> */
+.Instagram-section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.title {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.Instagram-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.Instagram-container img {
+  max-width: 90%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+/* <!-- =-=-=-=-=-=-=-Get The Latest Deals=-=-=-=-=-=- --> */
+.deals-section {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("yellow-red.png");
+  background-size: cover;
+}
+.deals-section-container {
+  text-align: center;
+  padding: 30px auto;
+}
+.deals-section-container h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 100px;
+}
+.deals-section-container p {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.input {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input input {
+  margin-left: 5px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 90px;
+}
+
+/* =-=-=-=--=-=-footer-section=-===-=-=-=-=- */
+footer {
+  background-color: black;
+  opacity: 0.9;
+  color: #fff;
+}
+.flowershop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.flowershop-container h2 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.flowershop-container p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: floralwhite;
+}
+.footer-down {
+  color: grey;
+  font-size: 14px;
+}
+span {
+  color: brown;
+}
